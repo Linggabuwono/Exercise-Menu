@@ -34,24 +34,15 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         Signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (Username.getText().toString().equals("Admin") && Password.getText().toString().equals("123")) {
-                    Toast.makeText(getApplicationContext(), "Isi Semua Data!", Toast.LENGTH_LONG).show();
-                } else if (Username.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Username Tidak Boleh Kosong.", Toast.LENGTH_LONG).show();
-                } else if (Password.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Password Tidak Boleh Kosong.", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(getApplicationContext(), "Pendaftaran Berhasil", Toast.LENGTH_LONG).show();
+                if (Username.getText().toString().equals("admin") && Password.getText().toString().equals("123")) {
+                    Intent intent = new Intent(MainActivity.this,MainMenu.class);
+                    startActivity(intent);
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_LONG).show();
                 }
             }
-        });
 
-        Signin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,MainMenu.class);
-                startActivity(intent);
-            }
         });
     }
 

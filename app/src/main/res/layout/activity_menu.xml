@@ -22,54 +22,54 @@
 
         <Button
             android:id="@+id/custombutton1"
-            android:layout_width="177dp"
-            android:layout_height="wrap_content"
+            android:layout_width="142dp"
+            android:layout_height="117dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="424dp"
-            android:onClick="persegi"
-            android:background="@drawable/custom_image1"/>
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="328dp"
+            android:background="@drawable/custom_image1"
+            android:onClick="persegi" />
 
         <Button
             android:id="@+id/custombutton2"
-            android:layout_width="151dp"
-            android:layout_height="wrap_content"
+            android:layout_width="116dp"
+            android:layout_height="131dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="225dp"
-            android:layout_marginBottom="425dp"
-            android:background="@drawable/custom_image2"/>
+            android:layout_marginEnd="247dp"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/custom_image2" />
 
         <Button
             android:id="@+id/custombutton3"
-            android:layout_width="159dp"
-            android:layout_height="174dp"
+            android:layout_width="119dp"
+            android:layout_height="131dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="228dp"
-            android:background="@drawable/custom_image3"/>
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="170dp"
+            android:background="@drawable/custom_image3" />
 
         <Button
             android:id="@+id/custombutton4"
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="214dp"
+            android:layout_marginEnd="237dp"
 
-            android:layout_marginBottom="232dp"
-            android:background="@drawable/custom_image4"/>
+            android:layout_marginBottom="171dp"
+            android:background="@drawable/custom_image4" />
 
         <Button
             android:id="@+id/custombutton5"
-            android:layout_width="206dp"
-            android:layout_height="152dp"
+            android:layout_width="157dp"
+            android:layout_height="104dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="104dp"
-            android:layout_marginBottom="51dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="45dp"
             android:background="@drawable/custom_image5" />
 
     </RelativeLayout>
