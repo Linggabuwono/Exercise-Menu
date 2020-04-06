@@ -14,13 +14,10 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
+public class MainActivity extends AppCompatActivity{
 
     Button Signin;
     EditText Username, Password;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,24 +43,5 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         });
     }
 
-    public void showPopup (View v) {
-        PopupMenu popup = new PopupMenu(this, v);
-        popup.setOnMenuItemClickListener(this);
-        popup.inflate(R.menu.persegi);
-        popup.show();
-    }
-    @Override
-    public boolean onMenuItemClick(MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
-            case R.id.hl:
-                Toast.makeText(this, "Item", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.hk:
-                Toast.makeText(this, "Item", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                 return false;
-        }
-    }
 }
 
