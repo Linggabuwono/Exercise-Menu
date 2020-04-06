@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Menu Hitung Bangun Dasar"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/custombutton1"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="424dp"
+            android:onClick="persegi"
+            android:background="@drawable/custom_image1"/>
+
+        <Button
+            android:id="@+id/custombutton2"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="225dp"
+            android:layout_marginBottom="425dp"
+            android:background="@drawable/custom_image2"/>
+
+        <Button
+            android:id="@+id/custombutton3"
+            android:layout_width="159dp"
+            android:layout_height="174dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="228dp"
+            android:background="@drawable/custom_image3"/>
+
+        <Button
+            android:id="@+id/custombutton4"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="214dp"
+
+            android:layout_marginBottom="232dp"
+            android:background="@drawable/custom_image4"/>
+
+        <Button
+            android:id="@+id/custombutton5"
+            android:layout_width="206dp"
+            android:layout_height="152dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="51dp"
+            android:background="@drawable/custom_image5" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
