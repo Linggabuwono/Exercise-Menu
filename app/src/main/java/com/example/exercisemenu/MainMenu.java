@@ -2,6 +2,7 @@ package com.example.exercisemenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,14 +10,14 @@ import android.widget.Button;
 import android.widget.PopupMenu;
 import android.widget.Toast;
 
-public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener  {
+public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
     }
+
     public void showPopup (View v) {
         PopupMenu popup = new PopupMenu(this, v);
         popup.setOnMenuItemClickListener(this);
@@ -35,6 +36,15 @@ public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemC
             default:
                 return false;
         }
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.hl){
+            startActivity(new Intent(this, persegi.class));
+        }else if (item.getItemId() == R.id.hk){
+            startActivity(new Intent(this, persegi.class));
+        }
+        return true;
     }
 
 }
