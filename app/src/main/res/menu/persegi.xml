@@ -5,13 +5,11 @@
 
     <item
         android:id="@+id/hlp"
-        android:title="Hitung Luas"
-        app:showAsAction="never"/>
+        android:title="Hitung Luas"/>
 
     <item
         android:id="@+id/hkp"
-        android:title="Hitung Keliling"
-        app:showAsAction="never"/>
+        android:title="Hitung Keliling"/>
 
 
 </menu>

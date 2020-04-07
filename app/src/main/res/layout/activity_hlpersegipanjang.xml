@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".hlpersegipanjang">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -20,6 +20,15 @@
             android:textAlignment="center"
             android:textSize="35dp"
             android:textStyle="bold"/>
-    </LinearLayout>
+
+        <ImageButton
+            android:layout_width="408dp"
+            android:layout_height="188dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="418dp"
+            android:background="@drawable/bangun_hitung2" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

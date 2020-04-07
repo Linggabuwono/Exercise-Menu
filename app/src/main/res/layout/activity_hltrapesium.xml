@@ -21,15 +21,16 @@
             android:textSize="35dp"
             android:textStyle="bold"/>
 
-        <TextViewview
-            android:layout_width="116dp"
-            android:layout_height="131dp"
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="247dp"
-            android:layout_marginBottom="320dp"
-            android:background="@drawable/bangun_hitung1"/>
-
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="432dp"
+            android:background="@drawable/bangun_hitung5"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="103dp" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
