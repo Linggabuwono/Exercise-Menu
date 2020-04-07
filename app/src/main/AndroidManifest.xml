@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".persegi"></activity>
+        <activity android:name=".hkpersegi"></activity>
+        <activity android:name=".hlpersegi" />
         <activity android:name=".MainMenu" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -28,23 +30,17 @@ public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemC
     public boolean onMenuItemClick(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.hl:
-                Toast.makeText(this, "Item", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, hlpersegi.class));
                 return true;
             case R.id.hk:
-                Toast.makeText(this, "Item", Toast.LENGTH_SHORT).show();
-                return true;
+                startActivity(new Intent(this, hkpersegi.class));
             default:
-                return false;
+                return true;
         }
     }
-
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.hl){
-            startActivity(new Intent(this, persegi.class));
-        }else if (item.getItemId() == R.id.hk){
-            startActivity(new Intent(this, persegi.class));
-        }
+    public boolean onCreateOptionsMenu (Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.persegi, menu);
         return true;
     }
-
 }
