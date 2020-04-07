@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hlpersegi">
+    tools:context=".hlsegitiga">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:background="@color/backgroundhitungcolor">
         <TextView
-            android:id="@+id/hlp"
+            android:id="@+id/hls"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"

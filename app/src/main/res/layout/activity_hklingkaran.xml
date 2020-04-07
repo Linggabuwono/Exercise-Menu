@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hlpersegi">
+    tools:context=".hklingkaran">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,11 +12,11 @@
         android:orientation="vertical"
         android:background="@color/backgroundhitungcolor">
         <TextView
-            android:id="@+id/hlp"
+            android:id="@+id/hkl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Hitung Luas"
+            android:text="Hitung Keliling"
             android:textAlignment="center"
             android:textSize="35dp"
             android:textStyle="bold"/>

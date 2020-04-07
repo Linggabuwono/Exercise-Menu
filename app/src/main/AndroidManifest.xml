@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hkpersegi"></activity>
+        <activity android:name=".hktrapesium"></activity>
+        <activity android:name=".hltrapesium" />
+        <activity android:name=".hklingkaran" />
+        <activity android:name=".hllingkaran" />
+        <activity android:name=".hksegitiga" />
+        <activity android:name=".hlsegitiga" />
+        <activity android:name=".hkpersegipanjang" />
+        <activity android:name=".hlpersegipanjang" />
+        <activity android:name=".hkpersegi" />
         <activity android:name=".hlpersegi" />
         <activity android:name=".MainMenu" />
         <activity android:name=".MainActivity">

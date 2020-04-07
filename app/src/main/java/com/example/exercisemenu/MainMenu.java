@@ -29,18 +29,37 @@ public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemC
     @Override
     public boolean onMenuItemClick(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.hl:
+            case R.id.hlp:
                 startActivity(new Intent(this, hlpersegi.class));
                 return true;
-            case R.id.hk:
+            case R.id.hkp:
                 startActivity(new Intent(this, hkpersegi.class));
+                return true;
+            case R.id.hlpp:
+                startActivity(new Intent(this, hlpersegipanjang.class));
+                return true;
+            case R.id.hkpp:
+                startActivity(new Intent(this, hkpersegipanjang.class));
+                return true;
+            case R.id.hls:
+                startActivity(new Intent(this, hlsegitiga.class));
+                return true;
+            case R.id.hks:
+                startActivity(new Intent(this, hksegitiga.class));
+                return true;
+            case R.id.hll:
+                startActivity(new Intent(this, hllingkaran.class));
+                return true;
+            case R.id.hkl:
+                startActivity(new Intent(this, hklingkaran.class));
+                return true;
+            case R.id.hlt:
+                startActivity(new Intent(this, hltrapesium.class));
+                return true;
+            case R.id.hkt:
+                startActivity(new Intent(this, hktrapesium.class));
             default:
                 return true;
         }
-    }
-    public boolean onCreateOptionsMenu (Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.persegi, menu);
-        return true;
     }
 }

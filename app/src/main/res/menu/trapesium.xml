@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/hl"
+        android:id="@+id/hlt"
         android:title="Hitung Luas"/>
 
     <item
-        android:id="@+id/hk"
+        android:id="@+id/hkt"
         android:title="Hitung Keliling"/>
 
 

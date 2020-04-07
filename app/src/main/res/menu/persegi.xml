@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <item
-        android:id="@+id/hl"
+        android:id="@+id/hlp"
         android:title="Hitung Luas"
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/hk"
+        android:id="@+id/hkp"
         android:title="Hitung Keliling"
         app:showAsAction="never"/>
 
