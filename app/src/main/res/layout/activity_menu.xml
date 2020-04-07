@@ -21,7 +21,7 @@
             android:textStyle="bold"/>
 
         <Button
-            android:id="@+id/custombutton1"
+            android:id="@+id/persegi"
             android:layout_width="142dp"
             android:layout_height="117dp"
             android:layout_alignParentEnd="true"
@@ -32,7 +32,7 @@
             android:onClick="showPopup" />
 
         <Button
-            android:id="@+id/custombutton2"
+            android:id="@+id/persegipanjang"
             android:layout_width="116dp"
             android:layout_height="131dp"
             android:layout_alignParentEnd="true"
@@ -43,7 +43,7 @@
             android:onClick="showPopup" />
 
         <Button
-            android:id="@+id/custombutton3"
+            android:id="@+id/lingkaran"
             android:layout_width="119dp"
             android:layout_height="131dp"
             android:layout_alignParentEnd="true"
@@ -54,19 +54,18 @@
             android:onClick="showPopup"/>
 
         <Button
-            android:id="@+id/custombutton4"
+            android:id="@+id/segitiga"
             android:layout_width="135dp"
             android:layout_height="135dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="237dp"
-
             android:layout_marginBottom="171dp"
             android:background="@drawable/custom_image4"
             android:onClick="showPopup"/>
 
         <Button
-            android:id="@+id/custombutton5"
+            android:id="@+id/trapesium"
             android:layout_width="157dp"
             android:layout_height="104dp"
             android:layout_alignParentEnd="true"

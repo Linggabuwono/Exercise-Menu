@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".hltrapesium">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -20,6 +20,16 @@
             android:textAlignment="center"
             android:textSize="35dp"
             android:textStyle="bold"/>
-    </LinearLayout>
+
+        <TextViewview
+            android:layout_width="116dp"
+            android:layout_height="131dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="247dp"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/bangun_hitung1"/>
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

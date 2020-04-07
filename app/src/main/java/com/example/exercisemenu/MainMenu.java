@@ -14,18 +14,71 @@ import android.widget.Toast;
 
 public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
 
+    Button persegi, persegipanjang, segitiga, lingkaran, trapesium;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        persegi = findViewById(R.id.persegi);
+        persegipanjang = findViewById(R.id.persegipanjang);
+        segitiga = findViewById(R.id.segitiga);
+        lingkaran = findViewById(R.id.lingkaran);
+        trapesium = findViewById(R.id.trapesium);
+
+        persegi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popup = new PopupMenu(MainMenu.this, view);
+                popup.setOnMenuItemClickListener(MainMenu.this);
+                popup.inflate(R.menu.persegi);
+                popup.show();
+            }
+        });
+
+        persegipanjang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popup = new PopupMenu(MainMenu.this, view);
+                popup.setOnMenuItemClickListener(MainMenu.this);
+                popup.inflate(R.menu.persegi);
+                popup.show();
+            }
+        });
+
+        segitiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popup = new PopupMenu(MainMenu.this, view);
+                popup.setOnMenuItemClickListener(MainMenu.this);
+                popup.inflate(R.menu.persegi);
+                popup.show();
+            }
+        });
+
+        lingkaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popup = new PopupMenu(MainMenu.this, view);
+                popup.setOnMenuItemClickListener(MainMenu.this);
+                popup.inflate(R.menu.persegi);
+                popup.show();
+            }
+        });
+
+        trapesium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popup = new PopupMenu(MainMenu.this, view);
+                popup.setOnMenuItemClickListener(MainMenu.this);
+                popup.inflate(R.menu.persegi);
+                popup.show();
+            }
+        });
     }
 
-    public void showPopup (View v) {
-        PopupMenu popup = new PopupMenu(this, v);
-        popup.setOnMenuItemClickListener(this);
-        popup.inflate(R.menu.persegi);
-        popup.show();
-    }
     @Override
     public boolean onMenuItemClick(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
@@ -58,8 +111,9 @@ public class MainMenu extends AppCompatActivity implements PopupMenu.OnMenuItemC
                 return true;
             case R.id.hkt:
                 startActivity(new Intent(this, hktrapesium.class));
-            default:
                 return true;
+            default:
+                return false;
         }
     }
 }
